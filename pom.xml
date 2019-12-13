@@ -76,6 +76,14 @@
             <!-- 核心功能相关 END-->
 
             <!-- 其它工具相关 -->
+            <!-- lombok -->
+            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <scope>provided</scope>
+            </dependency>
+            <!-- lombok END -->
             <!-- HTTP 调用 -->
             <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
             <dependency>
