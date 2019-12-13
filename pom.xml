@@ -53,6 +53,7 @@
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${mybatis-spring-boot-starter.version}</version>
             </dependency>
+            <!-- ORM END -->
             <!-- 内存数据库 -->
             <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
             <dependency>
