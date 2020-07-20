@@ -37,14 +37,6 @@
                 <version>${mysql.version}</version>
             </dependency>
             <!-- DB Driver END-->
-            <!-- JDBC Connection Pool -->
-            <!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
-            <dependency>
-                <groupId>com.zaxxer</groupId>
-                <artifactId>HikariCP</artifactId>
-                <version>${hikaricp.version}</version>
-            </dependency>
-            <!-- JDBC Connection Pool END-->
             <!-- ORM -->
             <!-- https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter -->
             <dependency>
