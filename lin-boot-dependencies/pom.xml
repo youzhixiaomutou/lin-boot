@@ -23,6 +23,7 @@
         <project.email>linxiaowei.me@gmail.com</project.email>
         <project.timezone>+8</project.timezone>
 
+        <lombok.version>1.18.20</lombok.version>
         <shiro.version>1.7.1</shiro.version>
         <jsoup.version>1.13.1</jsoup.version>
         <poi.version>4.1.2</poi.version>

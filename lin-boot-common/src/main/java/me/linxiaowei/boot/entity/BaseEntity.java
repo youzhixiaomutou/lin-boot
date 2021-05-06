@@ -1,5 +1,7 @@
 package me.linxiaowei.boot.entity;
 
+import lombok.Data;
+
 import java.util.Date;
 
 /**
@@ -8,6 +10,7 @@ import java.util.Date;
  * @author <a href="mailto://linxiaowei.me@gmail.com">LinXiaoWei</a>
  * @date 2021/5/6 16:40
  */
+@Data
 public class BaseEntity {
 
     /**
