@@ -13,6 +13,7 @@
         <module>lin-boot-spring-dependencies</module>
         <module>lin-boot-common</module>
         <module>lin-boot-in-action</module>
+        <module>lin-boot-workbench</module>
     </modules>
 
 </project>
