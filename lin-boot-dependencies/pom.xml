@@ -6,8 +6,8 @@
 
     <!-- 2021/05/06 -->
     <parent>
-        <artifactId>lin-boot</artifactId>
         <groupId>me.linxiaowei</groupId>
+        <artifactId>lin-boot</artifactId>
         <version>1.0.0</version>
     </parent>
 
@@ -22,9 +22,10 @@
         <project.author>Lin</project.author>
         <project.email>linxiaowei.me@gmail.com</project.email>
         <project.timezone>+8</project.timezone>
-
         <lombok.version>1.18.20</lombok.version>
-        <shiro.version>1.7.1</shiro.version>
+        <mysql.version>8.0.23</mysql.version>
+        <h2.version>1.4.200</h2.version>
+        <netty.version>4.1.63.Final</netty.version>
         <jsoup.version>1.13.1</jsoup.version>
         <poi.version>4.1.2</poi.version>
     </properties>
@@ -39,11 +40,33 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-core -->
+            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
             <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-core</artifactId>
-                <version>${shiro.version}</version>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>${h2.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
             <dependency>

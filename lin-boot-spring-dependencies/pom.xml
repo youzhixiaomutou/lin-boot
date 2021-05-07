@@ -25,11 +25,13 @@
         <project.author>Lin</project.author>
         <project.email>linxiaowei.me@gmail.com</project.email>
         <project.timezone>+8</project.timezone>
-
-        <shiro.version>1.7.1</shiro.version>
+        <lombok.version>1.18.20</lombok.version>
+        <mysql.version>8.0.23</mysql.version>
+        <h2.version>1.4.200</h2.version>
+        <mybatis.starter.version>2.1.4</mybatis.starter.version>
+        <netty.version>4.1.63.Final</netty.version>
         <jsoup.version>1.13.1</jsoup.version>
         <poi.version>4.1.2</poi.version>
-        <mybatis.starter.version>2.1.4</mybatis.starter.version>
     </properties>
 
     <developers>
@@ -60,6 +62,14 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
             <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
             <dependency>
                 <groupId>mysql</groupId>
@@ -86,12 +96,6 @@
                 <artifactId>netty-all</artifactId>
                 <version>${netty.version}</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-core -->
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-core</artifactId>
-                <version>${shiro.version}</version>
-            </dependency>
             <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
             <dependency>
                 <groupId>org.jsoup</groupId>
@@ -103,14 +107,6 @@
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
                 <version>${poi.version}</version>
-            </dependency>
-
-            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>${lombok.version}</version>
-                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
