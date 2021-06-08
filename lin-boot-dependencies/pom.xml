@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
-    <!-- 2021/05/06 -->
+    <!-- 2021/06/08 -->
     <parent>
         <groupId>me.linxiaowei</groupId>
         <artifactId>lin-boot</artifactId>
