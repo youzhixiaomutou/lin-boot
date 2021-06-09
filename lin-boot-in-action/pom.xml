@@ -13,6 +13,7 @@
     <artifactId>lin-boot-in-action</artifactId>
 
     <modules>
+        <module>lin-boot-spring-mybatis</module>
         <module>lin-boot-spring-security</module>
     </modules>
 
