@@ -15,6 +15,7 @@
     <modules>
         <module>lin-boot-spring-mybatis</module>
         <module>lin-boot-spring-security</module>
+        <module>lin-boot-prometheus</module>
     </modules>
 
 </project>
