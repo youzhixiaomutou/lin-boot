@@ -11,7 +11,7 @@ import java.util.Date;
  * @date 2021/5/6 16:40
  */
 @Data
-public class BaseEntity {
+public abstract class BaseEntity {
 
     /**
      * 自增 id
