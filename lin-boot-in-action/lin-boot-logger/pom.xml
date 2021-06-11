@@ -2,21 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <packaging>pom</packaging>
 
     <parent>
         <groupId>me.linxiaowei</groupId>
-        <artifactId>lin-boot</artifactId>
+        <artifactId>lin-boot-dependencies</artifactId>
         <version>1.0.0</version>
+        <relativePath>../../lin-boot-dependencies</relativePath>
     </parent>
 
-    <artifactId>lin-boot-in-action</artifactId>
+    <artifactId>lin-boot-logger</artifactId>
 
-    <modules>
-        <module>lin-boot-logger</module>
-        <module>lin-boot-spring-mybatis</module>
-        <module>lin-boot-spring-security</module>
-        <module>lin-boot-prometheus</module>
-    </modules>
+    <dependencies/>
 
 </project>
