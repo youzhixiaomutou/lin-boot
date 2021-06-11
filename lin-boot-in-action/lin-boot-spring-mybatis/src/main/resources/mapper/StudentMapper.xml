@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.linxiaowei.boot.spring.mybatis.dao.StudentMapper">
+
+    <!-- 可以通过增加 keyProperty="id" useGeneratedKeys="true, 来回写 id -->
+    <insert id="save" keyProperty="id" useGeneratedKeys="true">
+        insert into `student`
+        values (null, now(), now(), #{s.name}, #{s.age}, #{s.sex})
+    </insert>
+
+    <delete id="delete">
+        delete
+        from `student`
+        where id = #{id}
+    </delete>
+
+</mapper>
