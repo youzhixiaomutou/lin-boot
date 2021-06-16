@@ -22,8 +22,20 @@ public abstract class BaseEntity {
      */
     private Date gmtCreate;
     /**
+     * 创建用户
+     */
+    private String createUser;
+    /**
      * 修改时间
      */
     private Date gmtModified;
+    /**
+     * 修改用户
+     */
+    private String modifiedUser;
+    /**
+     * 备注
+     */
+    private String remark;
 
 }
